@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package telas;
+package br.com.bg.blibliotecaBG.tela;
 
 /**
  *
@@ -16,6 +16,8 @@ public class Telamenu extends javax.swing.JFrame {
      */
     public Telamenu() {
         initComponents();
+        setLocationRelativeTo(null);
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -33,6 +35,7 @@ public class Telamenu extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jMenu1.setText("arquivo");
 
